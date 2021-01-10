@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 80%;
+  margin: 40px auto;
+  border: 3px outset grey;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.quote-display {
+  width: 80%;
+  /* border: 2px solid red; */
+  height: 200px;
+  margin: 30px auto;
+}
+
+button {
+  padding: 8px 16px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+}
+
+button:hover {
+  color: white;
+  background-color: orange;
+}
+
+span {
+  display: inline-block;
+  font-style: italic;
+  padding: 40px;
+  font-size: 25px;
+  border: 2px solid grey;
+  width: 80%;
+  height: 150px;
+}
+
+.btn-section button {
+  margin: 10px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
