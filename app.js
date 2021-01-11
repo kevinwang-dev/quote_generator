@@ -11,11 +11,16 @@ const quotes = [
     ["Simplicity is the ultimate sophistication.", "Leonardo Da Vinci"]
   ];
 
+const newQuotes = []
+quotes.forEach(e => {
+  newQuotes.push(` "${e}"`)
+})
+
   
 
   btn.addEventListener('click', () => {
       const rand = Math.floor(Math.random() * quotes.length);
-    span.textContent = quotes[rand]
+    span.textContent = newQuotes[rand]
   })
 
   darkBtn.addEventListener('click', () => {
